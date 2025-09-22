@@ -1,0 +1,49 @@
+# ======================
+# Python / Django
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# ======================
+# Firebase / Secrets
+# ======================
+*.json
+firebase_config.py
+
+# ======================
+# Flutter / Dart
+# ======================
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.dart_tool/
+build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+*.lock
+
+# VSCode / JetBrains / IDE
+.vscode/
+.idea/
+
+# ======================
+# OS generated
+# ======================
+.DS_Store
+Thumbs.db
